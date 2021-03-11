@@ -14,6 +14,8 @@ body {
 
 @media (min-width: 1025px) {
 
+    /* Navigation Section */
+
     #navigation {
         height: 40px;
     }
@@ -27,22 +29,61 @@ body {
       float: right;
       padding-right: 10px;
       
+        
+      /* padding-bottom: ; */
+      height: 100%;
   }
 
   .nav-link {
     padding: 20px 10px 10px 20px;
     text-decoration: none;
   }
-  
 
-  /* .left {
-    padding-bottom: 20px;
+  .acct-logo {
+      border-radius: 50%;
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      padding: 4px;
   }
 
-  .la {
-      padding-left: 20px;
-  } */
-
+  .acct-logo-div {
+      float: right;
+      position: relative;
+      bottom: 10px;
+      
+  }
   
+  /* Logo Section */
+
+  #logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+  }
+
+  /* Search Bar section */
+  
+  #search {
+      display: flex;
+      justify-content: center;
+      border: none;
+  }
+
+  /* Removes outline when you click in search bar */
+  input#search-bar:focus {
+      outline-width: 0;
+  }
+  
+  #search-bar {
+      width: 35rem;
+      padding: 10px;
+      border-radius: 15px;
+      border: none;
+  }
+
+  .micro {
+  }
 
 }
