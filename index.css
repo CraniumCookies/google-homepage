@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: grey;
 }
 
 /* Desktop Media Query */
@@ -22,7 +22,7 @@ body {
 
     .nav {
         height: 40px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
   .right {
@@ -68,13 +68,9 @@ body {
   #search {
       display: flex;
       justify-content: center;
-      border: none;
+      padding-top: 20px;
   }
 
-  /* Removes outline when you click in search bar */
-  input#search-bar:focus {
-      outline-width: 0;
-  }
   
   #search-bar {
       width: 35rem;
@@ -83,7 +79,34 @@ body {
       border: none;
   }
 
-  .micro {
-  }
+  input#search-bar:focus {
+        outline-width: 0;   /* Removes outline when you click in search bar */
+    }
+
+    /* Search buttons section */
+    
+    #buttons {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+
+    }
+
+    button {
+        margin-right: 20px;
+        background-color: #f8f9fa;
+        border: 1 px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+    }
 
 }
